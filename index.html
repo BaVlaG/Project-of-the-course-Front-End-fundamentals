@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Идем в поход</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet" type="text/css">
+		<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+		<script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+		<script src="https://use.fontawesome.com/322ccc24d2.js"></script>
+		<script src="js/indexScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/indexStyle.css">
+	</head>
+<body>	
+	<header>
+		<div class="contact" id="topPage">
+			<ul class="contact">
+				<li><a href="mailto:Vpohod@gmail.com" title="Отправить нам email">vpohod@gmail.com</a></li>
+				<li><a href="skype:V_pohod" title="Написать нам в скайп">vpohod</a></li>
+				<li><a href="tel:+375 17 977 77 79" title="Позвонить на по телефону" >+375 17 977 77 79</a></li>
+			</ul>
+		</div>
+		<div class="SocNets">
+			<div><a href="https://twitter.com/" title="Twitter" target="_blank"></a></div>
+			<div><a href="https://vk.com/" title="ВКонтакте" target="_blank"></a></div>
+			<div><a href="https://facebook.com/" title="Facebook" target="_blank"></a></div>
+			<div><a href="https://instagram.com" title="Instagram" target="_blank"></a></div>
+			<div><a href="https://ok.ru/" title="Одноклассники" target="_blank"></a></div>
+		</div>
+		<div class="poisk">
+			<input type="text"  placeholder="Я ищу..." >
+			<input type="button"  value="Поиск" >
+		</div>
+		<div class="clear"></div>
+	</header>
+	<div class="wrap">
+		<aside class="top">
+			<div class="logoMenu"></div>
+			<div class="smallLogoMenu"></div>
+			<div class="topMenu">
+				<div class="leftMenu">
+					<div class="menu"><a href="#about" class="scrollTo" title="Информация о Нас"></a></div>
+					<div class="menu"><a href="#rent" class="scrollTo" title="Аренда снаряжения"></a></div>
+					<div class="menu"><a href="#gallery" class="scrollTo" title="Галерея"></a></div>
+				</div>	
+				<div class="rightMenu">
+					<div class="menu"><a href="dolina.html" title="Долина привидений (Крым)"></a></div>
+					<div class="menu"><a href="svanetia.html" title="Сванетия (Грузии)"></a></div>
+					<div class="menu"><a href="tropa.html" title="Ликийская тропа (Турция)"></a></div>
+				</div>
+			</div>
+		</aside>
+		<article>
+			<nav class="svitok">
+				<img src="img/svitokTop.png"/>
+				<div class="contentSvitok">
+					<p><a href="#about" class="scrollTo" title="Информация о Нас">О нас</a></p>
+					<p><a class="region" title="Направления куда можно отправиться">Походы</a></p>
+					<div id="region">
+						<p><a href="dolina.html" title="Долина привидений (Крым)">Долина привидений</a></p>
+						<p><a href="svanetia.html" title="Сванетия (Грузии)">Сванетия</a></p>
+						<p><a href="tropa.html" title="Ликийская тропа (Турция)" >Ликийская тропа</a></p>
+					</div>
+					<p><a href="#gallery" class="scrollTo" title="Галерея" target="_blank">Галерея</a></p>
+					<p><a href="#rent" class="scrollTo" title="Аренда снаряжения" >Аренда снаряжения</a></p>
+				</div>
+				<img src="img/svitokBottom.png"/>
+			</nav> 
+			<div class="slider">
+				<div>
+					<ul class="bxslider">
+						<li><img src="img/krym.jpg"/></li>
+						<li><img src="img/kavkaz.jpg"/></li>
+						<li><img src="img/turkey.jpg"/></li>
+						<li><img src="img/krym1.jpg"/></li>
+						<li><img src="img/kavkaz1.jpg"/></li>
+						<li><img src="img/turkey1.jpg"/></li>
+					</ul>
+				</div>
+				<div id="bx-pager">
+					<a data-slide-index="0" href=""><img src="img/smallFoto/smallKrym.jpg" /></a>
+					<a data-slide-index="1" href=""><img src="img/smallFoto/smallKavkaz.jpg" /></a>
+					<a data-slide-index="2" href=""><img src="img/smallFoto/smallTurkey.jpg" /></a>
+					<a data-slide-index="3" href=""><img src="img/smallFoto/smallKrym1.jpg" /></a>
+					<a data-slide-index="4" href=""><img src="img/smallFoto/smallKavkaz1.jpg" /></a>
+					<a data-slide-index="5" href=""><img src="img/smallFoto/smallTurkey1.jpg" /></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<section id="about">
+				<h2>О нас</h2>
+				<p>Если Вы попали на наш сайт, значит, вы хотите в поход. Наша задача &mdash; выполнить ваше желание, 
+				причем так, чтобы вы &ldquo;заболели&rdquo; горами, рассказывали друзьям и коллегам в офисе о перевалах, плато 
+				и спусках, а потом пошли в поход еще раз, уже с этими самыми друзьями и коллегами.</p>
+				<p>Вашу мечту о горах осуществляет команда веселых, опытных и надежных инструкторов, которые раюботают
+				&ldquo;на местах&rdquo;. В Крыму водят симферопольские проводники, в Карпатах &mdash; ивано-франковские и львовские, на 
+				Западном Кавказе &mdash; краснодарцы, в Абхазии &mdash; жители Адлера. Правда мы еще не дошли до того, чтобы по 
+				Турции водили турки, а по Непалу &mdash; непальцы, но это в планах. Думаю, вы согласитесь, что человеку, 
+				выросшему среди крымских (карпатских, кавказских) гор, с детства исходившему там каждый камешек, можно доверять. 
+				Местный инструктор досконально знает все тропы на маршрутах, все места ночлега (стоянки, коши, колыбы), знает 
+				где, в случае непредвиденных обстоятельств, можно сойти с маршрута или как его подкорректировать.</p>
+				<img src="img/about.jpg" title="Фото с нашей командой"/>
+				<p>Нас часто спрашивают, из какого вы города. Мы не делаем привязки ни к какому конкретному городу &mdash; в наши походы
+				ходят киевляне и москвичи, минчане и днепропетровцы, одесситы и самарцы, жители Питера и Донецка, Харькова и Омска, 
+				Екатеринбурга и Гомеля... С нами иногда ходят французы, немцы и поляки. Наши точки есть в Симферополе, Ивано-Франковске, 
+				Краснодаре, Адлере &mdash; во всех городах, где стартуют наши маршруты и где происходит сбор групп.</p>
+				<p>Добираться до точки старта вы будете самостоятельно, а уж там попадете в заботливые руки наших инструкторов, которые 
+				будут опекать и поддерживать Вас 24/7.</p>
+			</section>
+			<section id="rent">
+				<h2>Аренда туристического снаряжения</h2>
+				<table border="1px">
+					<tr>
+						<th>Снаряжение</th><th>Крым</th><th>Кавказ</th><th>Турция</th>
+					</tr>
+					<tr>
+						<td class="notChange">Рюкзак</td><td>1$/сутки</td><td>2$/сутки</td><td>3$/сутки</td>
+					</tr>
+					<tr>
+						<td class="notChange">Палаткоместо</td><td>1$/сутки</td><td>2$/сутки</td><td>2$/сутки</td>
+					</tr>
+					<tr>
+						<td class="notChange">Каремат</td><td>1$/сутки</td><td>2$/сутки</td><td>2$/сутки</td>
+					</tr>
+					<tr>
+						<td class="notChange">Спальный мешок</td><td>1$/сутки</td><td>2$/сутки</td><td>3$/сутки</td>
+					</tr>
+				</table>
+			</section>
+			<section id="gallery">
+				<h2>Галерея фото из походов</h2>
+				<img src="img/krym/1.jpg" data-number="0"/>
+				<img src="img/krym/2.jpg" data-number="1"/>
+				<img src="img/krym/3.jpg" data-number="2"/>
+				<img src="img/krym/4.jpg" data-number="3"/>
+				<img src="img/krym/5.jpg" data-number="4"/>
+				<img src="img/krym/6.jpg" data-number="5"/>
+				<img src="img/krym/7.jpg" data-number="6"/>
+				<img src="img/krym/8.jpg" data-number="7"/>
+				<img src="img/svanetia/1.jpg" data-number="8"/>
+				<img src="img/svanetia/2.jpg" data-number="9"/>
+				<img src="img/svanetia/3.jpg" data-number="10"/>
+				<img src="img/svanetia/9.jpg" data-number="11"/>
+				<img src="img/svanetia/5.jpg" data-number="12"/>
+				<img src="img/svanetia/6.jpg"data-number="13"/>
+				<img src="img/svanetia/10.jpg" data-number="14"/>
+				<img src="img/svanetia/8.jpg" data-number="15"/>
+				<img src="img/turkey/1.jpg" data-number="16"/>
+				<img src="img/turkey/2.jpg" data-number="17"/>
+				<img src="img/turkey/3.jpg" data-number="18"/>
+				<img src="img/turkey/17.jpg" data-number="19"/>
+				<img src="img/turkey/5.jpg" data-number="20"/>
+				<img src="img/turkey/6.jpg" data-number="21"/>
+				<img src="img/turkey/7.jpg" data-number="22"/>
+				<img src="img/turkey/8.jpg" data-number="23"/>
+			</section>
+		</article>
+	</div>
+	<footer>
+		<img src="img/pageUp.png" id="pageUp"/>
+		<div class="SocNets">
+			<div><a href="https://twitter.com/" title="Twitter" target="_blank"></a></div>
+			<div><a href="https://vk.com/" title="ВКонтакте" target="_blank"></a></div>
+			<div><a href="https://facebook.com/" title="Facebook" target="_blank"></a></div>
+			<div><a href="https://instagram.com" title="Instagram" target="_blank"></a></div>
+			<div><a href="https://ok.ru/" title="Одноклассники" target="_blank"></a></div>
+		</div>
+		<div class="menuLink">
+			<a href="#about" class="scrollTo" title="Информация о Нас">О нас</a>
+			<a href="#rent" class="scrollTo" title="Аренда снаряжения">Аренда</a>
+			<a href="#gallery" class="scrollTo" title="Галерея" >Галерея</a>
+			<a href="dolina.html" class="equipment" title="Походы по Крыму">Долина привидений</a>
+			<a href="svanetia.html" class="rent" title="Походы по Кавказу">Сванетия</a>
+			<a href="tropa.html" class="contacts" title="Походы по Турции">Ликийская тропа</a>
+		</div>
+		<p class="copyright">&copy; vpohod.by 2016</p>
+		<div class="connect">
+			<img src="img/close.png"/>
+			<h3>Написать нам</h3>
+			<form>
+				<label>Ваше имя: <input type="text" placeholder="Гость"></label>
+				<p>Введите сообщение</p>
+				<textarea placeholder="Введите сообщение"></textarea>
+				<input type="submit" value="&lt; Отправить &gt;"/>
+			</form>
+		</div>
+	</footer>
+	<div class="layout"></div>
+	<div class="popUp">
+		<ul class="gallerySlider">
+			<li><img src="img/krym/1.jpg"/></li>
+			<li><img src="img/krym/2.jpg"/></li>
+			<li><img src="img/krym/3.jpg"/></li>
+			<li><img src="img/krym/4.jpg"/></li>
+			<li><img src="img/krym/5.jpg"/></li>
+			<li><img src="img/krym/6.jpg"/></li>
+			<li><img src="img/krym/7.jpg"/></li>
+			<li><img src="img/krym/8.jpg"/></li>
+			<li><img src="img/svanetia/1.jpg"/></li>
+			<li><img src="img/svanetia/2.jpg"/></li>
+			<li><img src="img/svanetia/3.jpg"/></li>
+			<li><img src="img/svanetia/9.jpg"/></li>
+			<li><img src="img/svanetia/5.jpg"/></li>
+			<li><img src="img/svanetia/6.jpg"/></li>
+			<li><img src="img/svanetia/10.jpg"/></li>
+			<li><img src="img/svanetia/8.jpg"/></li>
+			<li><img src="img/turkey/1.jpg"/></li>
+			<li><img src="img/turkey/2.jpg"/></li>
+			<li><img src="img/turkey/3.jpg"/></li>
+			<li><img src="img/turkey/17.jpg"/></li>
+			<li><img src="img/turkey/6.jpg"/></li>
+			<li><img src="img/turkey/7.jpg"/></li>
+			<li><img src="img/turkey/8.jpg"/></li>
+		</ul>
+	</div>
+</body>
+</html>
